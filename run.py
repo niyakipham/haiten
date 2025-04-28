@@ -3,7 +3,7 @@ import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
 
-URL = "http://kodoani.com"  # THAY ĐỔI URL
+URL = "https://shelled-available-deer.glitch.me/"  # THAY ĐỔI URL
 REQUESTS = 1
 CONCURRENCY = 10
 
