@@ -4,14 +4,14 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 
 URL = "http://kodoani.com"  # THAY ĐỔI URL
-REQUESTS = 1000
-CONCURRENCY = 1000
+REQUESTS = 1
+CONCURRENCY = 10
 
 def make_request():
     """Hàm thực hiện một request duy nhất"""
     try:
         # Gửi request với timeout 3 giây
-        requests.get(URL, timeout=3)
+        requests.get(URL, timeout=30)
     except requests.RequestException:
         pass  # Bỏ qua các lỗi nếu có
 
