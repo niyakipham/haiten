@@ -5,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 URL = "https://shelled-available-deer.glitch.me/"  # THAY ĐỔI URL
 REQUESTS = 1
-CONCURRENCY = 10
+CONCURRENCY = 3
 
 def make_request():
     """Hàm thực hiện một request duy nhất"""
